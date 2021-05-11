@@ -1,77 +1,63 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Food, LLC</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
-  </head>
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Module 3 Solution</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet">
+  <style>@import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
+  </style>
+</head>
 <body>
   <header>
-    <nav id="header-nav" class="navbar navbar-default">
-      <div class="container">
-        <div class="navbar-header">
-          <a href="#" class="pull-left visible-md visible-lg">
-          </a>
-
-          <div class="navbar-brand">
-            <a href="#"><h1>Food, LLC</h1></a>
-          </div>
-
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div>
-
-        <div id="collapsable-nav" class="collapse navbar-collapse">
-           <ul id="nav-list" class="nav navbar-nav navbar-right">
-            <li>
-              <a href="#">
-                <br class="hidden-xs"> Chicken </a>
-            </li>
-            <li>
-              <a href="#">
-                <br class="hidden-xs"> Beef </a>
-            </li>
-            <li>
-              <a href="#">
-                <br class="hidden-xs"> Sushi </a>
-            </li>
-          </ul>
-        </div>
+    <nav id="header-nav">        
+      <div id="navbar-foodLlc">
+        <div class="headerFoodLlc">Food, LLC</div>
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div id="collapsable-nav" class="collapse navbar-collapse">
+        <ul id="nav-list" class="nav visible-xs">
+          <li><a href="#chicken">Chicken</a></li>
+          <li><a href="#beef">Beef</a></li>
+          <li><a href="#sushi">Sushi</a></li>
+        </ul>
       </div>
     </nav>
   </header>
-
-  <div class="text-our-menu visible-xs visible-sm visible-md visible-lg">Our Menu</div><br>
-
-  <div id="main-content" class="container">
-    <div id="home-tiles" class="row">
-      <div class="col-md-4 col-sm-6 col-xs-12">
-        <div id="menu-tile"><span>Chicken</span>
-          <div class="menu-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel veniam non quia quidem praesentium porro?</div>
+  <div id="ourMenu" class="our-menu">Our Menu</div>
+  <div id="main-content">
+    <div class="col-md-4 col-sm-6 col-xs-12">
+      <div class="menu-title">
+          <span><a id="chicken">Chicken</a></span>
+          <div class="menu-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel veniam non quia quidem praesentium porro? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum vel dolorum fugiat dignissimos molestiae saepe omnis, natus unde voluptatibus! Obcaecati praesentium deserunt eligendi repudiandae doloribus nulla dignissimos commodi ad aut! Lorem, ipsum dolor sit amet consectetur adipisicing elit. <hr><a href="#navbar-foodLlc" class="backToTop">Back to top</a>
         </div>
       </div>
-      <div class="col-md-4 col-sm-6 col-xs-12">
-        <div id="menu-tile"><span>Beef</span>
-          <div class="menu-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel veniam non quia quidem praesentium porro?</div>
+    </div>
+    <div class="col-md-4 col-sm-6 col-xs-12">
+      <div class="menu-title">
+          <span><a id="beef">Beef</a></span>
+          <div class="menu-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel veniam non quia quidem praesentium porro? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum vel dolorum fugiat dignissimos molestiae saepe omnis, natus unde voluptatibus! Obcaecati praesentium deserunt eligendi repudiandae doloribus nulla dignissimos commodi ad aut! Lorem, ipsum dolor sit amet consectetur adipisicing elit. <hr><a href="#navbar-foodLlc" class="backToTop">Back to top</a>
         </div>
       </div>
-	    <div class="col-md-4 col-sm-6 col-xs-12">
-        <div id="menu-tile"><span>Sushi</span>
-          <div class="menu-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel veniam non quia quidem praesentium porro?</div>
+    </div>
+    <div class="col-md-4 col-xs-12">
+      <div class="menu-title">
+          <span><a id="sushi">Sushi</a></span>
+          <div class="menu-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel veniam non quia quidem praesentium porro? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum vel dolorum fugiat dignissimos molestiae saepe omnis, natus unde voluptatibus! Obcaecati praesentium deserunt eligendi repudiandae doloribus nulla dignissimos commodi ad aut Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, odit suscipit necessitatibus dolorum reiciendis animi voluptatibus minima laudantium voluptatum repudiandae quas. Esse pariatur fuga, a harum quae quibusdam. Ratione, excepturi.<hr><a href="#navbar-foodLlc" class="backToTop">Back to top</a>
         </div>
       </div>
     </div>
   </div>
-
   <script src="js/jquery-2.1.4.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
-  <script src="js/script.js"></script>
+  <script src="js/script.js"></script> 
 </body>
 </html>

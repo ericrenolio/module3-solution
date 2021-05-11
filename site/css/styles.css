@@ -2,90 +2,71 @@ body {
   font-size: 16px;
   color: #fff;
   background-color: #111;
-  font-family: sans-serif;
-}
+  font-family: 'Reggae One', cursive;}
 
 #header-nav {
   background-color: tomato;
   border-radius: 0;
-  border: 0;
 }
 
-
-.navbar-brand {
-  padding-top: 25px;
+#navbar-foodLlc {
+  height: inherit;
+  padding: 10px 0 10px 50px;
 }
 
-.navbar-brand h1 {
-
-  color: black;
-  font-weight: bold;
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: .75;
+.headerFoodLlc {
+  width: 250px;
+  height: inherit;
+  color: #000;
+  font-size: 2.5em;
 }
-.navbar-brand a:hover, .navbar-brand a:focus {
-  text-decoration: none;
+
+#navbar-foodLlc {
+  padding: 25px;
 }
 
 #nav-list {
-  margin-top: 10px;
-}
-#nav-list a {
-  color: #951C49;
+  border-radius: 15px;
+  background-color: rgb(155, 36, 36);
+  color: burlywood;
   text-align: center;
-}
-#nav-list a:hover {
-  background: #E7E7E7;
-}
-#nav-list a span {
-  font-size: 1.8em;
+  font-size: 1.6em;
+  margin-bottom: 25px;
 }
 
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #61122f;
+button.navbar-toggle, .icon-bar {
+  border: 3px solid #4b4300;
+  background-color: ivory;
 }
-.navbar-header button.navbar-toggle {
+button.navbar-toggle {
+  float: right;
   clear: both;
-  margin-top: -30px;
+  margin-top: -55px;
+  margin-left: 25px;
 }
 
-.text-our-menu {
+.our-menu {
 	text-align: center;
 	font-size: 1.5em;
-	
+  padding: 15px 0px 15px 0px;	
 }
 
-.dish-text {
-  position: absolute;
-  top: 40px;
-  right: 0;
+.menu-title {
+  border-radius: 7px;
+  background-color: cornflowerblue;
+  color: #111;
+  height: inherit;
   width: 100%;
-  text-align: center;
-  font-size: 1.2em;
-  color: orange;
-}
-
-.container .jumbotron {
-  box-shadow: 0 0 50px #3F0C1F;
-  border: 2px solid #3F0C1F;
-}
-
-#menu-tile {
-  height: 250px;
-  width: 100%;
+  margin-top: 15px;
   margin-bottom: 15px;
   position: relative;
-  border: 2px solid #3F0C1F;
   overflow: hidden;
-}
-#menu-tile:hover {
-  box-shadow: 0 1px 5px 1px #cccccc;
+  padding: 10px;
 }
 
-#menu-tile span {
+.menu-title span {
   position: absolute;
-  top: 0;
+  top: 10px;
   right: 0;
   width: 100%;
   text-align: center;
@@ -103,61 +84,19 @@ body {
 }
 
 @media (max-width: 767px) {
-  .navbar-brand {
-    padding-top: 10px;
-    height: 80px;
-  }
-  .navbar-brand h1 { 
-    padding-top: 10px;
-    font-size: 5vw; 
-  }
-  .navbar-brand p { 
-    font-size: .6em;
-    margin-top: 12px;
-  }
-
-  #collapsable-nav a { 
-    font-size: 1.2em;
-  }
-  #collapsable-nav a span { 
-    font-size: 1em;
-    margin-right: 5px;
-  }
-
-  #Our-Menu-btn > a {
-    font-size: 2.5em;
-    display: block;
-    margin: 0 20px;
-    padding: 10px;
-    background-color:DodgerBlue;
-    color: #fff;
-	font-weight: 600;
-  }
-  #xs-deliver {
-    margin-top: 5px;
-    font-size: .7em;
-    letter-spacing: .1em;
-    text-transform: uppercase;
-  }
- 
-  .container .jumbotron {
-    margin-top: 30px;
-    padding: 0;
-  }
-
-  #menu-tile {
-    width: 360px;
-    margin: 0 auto 15px;
+  #navbar-foodLlc {
+    padding:15px 0px 20px 25px;
+    height: inherit;
   }
 }
 
 @media (max-width: 479px) {
-  .navbar-brand h1 {
+  #navbar-foodLlc h1 {
     padding-top: 5px;
     font-size: 6vw;
   }
   
-  #menu-tile {
+  .menu-title {
     width: 280px;
     margin: 0 auto 15px;
   }
@@ -166,7 +105,11 @@ body {
 .menu-description {
   margin-top: 55px;
   text-align: center;
-  color: rgb(6, 141, 141);
+  color: rgb(10, 1, 63);
   font-size: x-large;
   height: auto;
+}
+
+.backToTop {
+  color: rgb(217, 255, 0);
 }
